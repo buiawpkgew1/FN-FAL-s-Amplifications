@@ -53,7 +53,7 @@ jobs:
       uses: actions/download-artifact@v4.1.7
         
     - name: 创建发布
-      uses: softprops/action-gh-release@v1
+      uses: softprops/action-gh-release@v2
       with:
         draft: true
         fail_on_unmatched_files: true
